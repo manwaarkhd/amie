@@ -7,28 +7,30 @@ Extrachromosomal DNA (ecDNA) is a major driver of oncogene amplification, tumour
 - **02/03/2026**: Live on biorxiv.
 
 # Usage Guide
-### Prerequisites
-- Python 3.8
-- TensorFlow 2.10
-- OpenCV 4.9
-### Steps
-1. Clone the repository:
+## Prerequisites
+- PyTorch 2.10
+- OpenSlide 1.4
+- OpenCV 4.13
+- NumPy/pandas/SciPy/scikit-learn
+## Installation
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/manwaarkhd/amie.git
    cd amie
    ```
-3. Set up a Python virtual environment (optional but recommended):
+### 2. Set up a Python virtual environment using `venv` (optional but recommended):
    ```bash
-   python3 -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   python -m venv env
+   source env/bin/activate
    ```
-5. Install the required packages:
+   On Windows:
+   ```bash
+   env\Scripts\activate
+   ```
+### 3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
-
-# Acknowledgements
-The authors acknowledge the support of the Ministry of Science and Culture of Lower Saxony through funds from the program zukunft.niedersachsen of the Volkswagen Foundation for the `CAIMed – Lower Saxony Center for Artificial Intelligence and Causal Methods in Medicine' project (grant no. ZN4257). The authors acknowledge Hannover Medical School for providing MHH-HPC resources and technical support that have contributed to the research results reported within this paper. 
 
 # Citation
 If you find our work useful in your research, please consider citing our paper:
@@ -43,4 +45,6 @@ If you find our work useful in your research, please consider citing our paper:
 }
 ```
 
+# Acknowledgements
+The authors acknowledge the support of the Ministry of Science and Culture of Lower Saxony through funds from the program zukunft.niedersachsen of the Volkswagen Foundation for the `CAIMed – Lower Saxony Center for Artificial Intelligence and Causal Methods in Medicine' project (grant no. ZN4257). The authors acknowledge Hannover Medical School for providing MHH-HPC resources and technical support that have contributed to the research results reported within this paper. 
 
