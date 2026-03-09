@@ -1,7 +1,24 @@
-<h2 align="center"> Detecting Extrachromosomal DNA from Routine Histopathology </h2>
+<table align="center">
+  <tr>
+    <td width="150" align="center">
+      <img src="assets/logo-v2.0.png" alt="AMIE logo" width="90">
+    </td>
+    <td>
+      <h1 align="center">Detecting Extrachromosomal DNA from Routine Histopathology</h1>
+    </td>
+  </tr>
+</table>
+
 <p align="justify">
-Extrachromosomal DNA (ecDNA) is a major driver of oncogene amplification, tumour heterogeneity and poor clinical outcomes, yet its detection relies on specialised genomic assays that are not integrated into routine diagnostics. Here, we show that ecDNA status can be inferred directly from standard haematoxylin and eosin–stained whole-slide pathology images. We develop an end-to-end, weakly supervised deep learning framework that aggregates thousands of high-magnification patches per slide with slide-level augmentation and interpretable attention. Across twelve cancer types from The Cancer Genome Atlas, the approach identifies tumours with genomic amplifications and, critically, distinguishes ecDNA-amplified from chromosomally amplified or non-amplified tumours, with the strongest signal in glioblastoma. Attention maps localise regions enriched for nuclei with altered chromatin intensity and texture, and predicted ecDNA status recapitulates its adverse association with survival. These results indicate that ecDNA amplifications leave reproducible histomorphologic foot-prints detectable by routine pathology, enabling scalable screening to prioritise tumours for confirmatory molecular testing.
+This repository contains the implementation of <b>AMIE</b>, an end-to-end multiple instance learning (MIL) framework to detect extrachromosomal DNA (ecDNA) from routine haematoxylin and eosin (H&E) whole-slide images (WSIs).
 </p>
+
+<div align="center">
+  <img src="assets/framework-schematic-diagram.png">
+</div>
+<br>
+<div align="center"> Overview of the AMIE framework for ecDNA-driven tumour detection from Whole-slide images. </div>
+
 
 ## Updates
 - **02/03/2026**: Live on biorxiv.
