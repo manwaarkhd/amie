@@ -1,10 +1,24 @@
-<table align="center">
+<table align="center" border="0px" cellspacing="0" cellpadding="0">
   <tr>
     <td width="150" align="center">
-      <img src="assets/logo-v2.0.png" alt="AMIE logo" width="90">
+      <img src="assets/logo-v2.0.png" width="95">
     </td>
     <td>
-      <h1 align="center">Detecting Extrachromosomal DNA from Routine Histopathology</h1>
+      <h1 align="center"> Detecting Extrachromosomal DNA from Routine Histopathology</h1>
+		<table align="center">
+			<tr>
+				<td> 
+					<a href="https://www.biorxiv.org/content/10.64898/2026.02.27.708546v1">
+						<img src="https://img.shields.io/badge/BioRxiv-Paper-orange?style=flat&logo=readthedocs">
+					</a>
+				</td>
+				<td>
+					<a href="https://github.com/manwaarkhd/amie">
+						<img src="https://img.shields.io/github/license/manwaarkhd/amie">
+					</a>
+				</td>
+			</tr>
+		</table>
     </td>
   </tr>
 </table>
@@ -13,11 +27,11 @@
 This repository contains the implementation of <b>AMIE</b>, an end-to-end multiple instance learning (MIL) framework to detect extrachromosomal DNA (ecDNA) from routine haematoxylin and eosin (H&E) whole-slide images (WSIs).
 </p>
 
-<div align="center">
-  <img src="assets/framework-schematic-diagram.png">
+<!-- <div align="center">
+  <img src="assets/AMIE-framework-diagram-v4.9.9.png">
 </div>
 <br>
-<div align="center"> Overview of the AMIE framework for ecDNA-driven tumour detection from Whole-slide images. </div>
+<div align="center"> Overview of the AMIE framework for ecDNA-driven tumour detection from Whole-slide images. </div> -->
 
 
 ## Updates
