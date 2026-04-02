@@ -4,7 +4,7 @@
       <img src="assets/logo-v2.0.png" width="95">
     </td>
     <td>
-		<h1 align="center"> Detecting Extrachromosomal DNA from Routine Histopathology</h1>
+		<h1 align="center"> Extrachromosomal DNA leaves a reproducible histomorphologic footprint detectable in routine pathology </h1>
 		<p align="center">
 			<img src="https://img.shields.io/badge/Python-3.10-blue">
 			<img src="https://img.shields.io/badge/PyTorch-2.10-red">
